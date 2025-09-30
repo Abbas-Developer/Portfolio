@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-hadding {
+    text-align: center;
+    margin-top: 15px;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+.boxes {
+    border: 2px solid rgb(189, 183, 183);
+    padding: 25px;
+    color:black;
+    text-align: center;
+    
+}
+.boxes > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.boxes > h1 {
+    margin: 8px;
+}
